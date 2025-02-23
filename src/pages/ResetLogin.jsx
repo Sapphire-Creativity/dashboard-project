@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { auth } from "../components/Firebase/config";
+import { auth } from "../Components/Firebase/config";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { sendPasswordResetEmail } from "firebase/auth";
