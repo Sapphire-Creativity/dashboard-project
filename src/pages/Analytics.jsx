@@ -4,7 +4,7 @@ const Analytics = () => {
   return (
     <div>
 
-        Analytics
+        Analytics Page
       
     </div>
   )

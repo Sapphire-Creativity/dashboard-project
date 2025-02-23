@@ -5,7 +5,7 @@ const TopBar = () => {
 	return (
 		<div className=" px-3 flex justify-between items-center">
 			<h3 className="font-medium text-xl sm:text-2xl text-blue-700">
-				Dashboard
+				User Dashboard
 			</h3>
 
 			<div className="flex items-center justify-center  rounded-full shadow-[6px_6px_12px_#bebebe,-6px_-6px_12px_#ffffff] py-2 px-5 w-80">
