@@ -12,11 +12,9 @@ import {
 	FaCog,
 	FaBars,
 } from "react-icons/fa";
-import { useUser } from "../Context/UserContext";
 
 const SideBar = ({ collapsed, toggleSidebar }) => {
 	//
-	const { user, loading } = useUser();
 
 	return (
 		<div
@@ -108,13 +106,13 @@ const SideBar = ({ collapsed, toggleSidebar }) => {
 					<FaCog className="text-[1.2rem]" />
 					{!collapsed && "Settings"}
 				</NavLink>
-				<NavLink
+				{/* <NavLink
 					to="/signin"
 					className="flex items-center gap-3 text-base py-3 pl-5"
 				>
 					<SlLogout className="text-[1.2rem]" />
 					{!collapsed && "Log out"}
-				</NavLink>
+				</NavLink> */}
 			</div>
 		</div>
 	);
